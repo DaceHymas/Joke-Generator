@@ -1,0 +1,56 @@
+html, body {
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1498422586775-096388253518?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0e987226b0f98b54281d0878a7dc7b9&auto=format&fit=crop&w=1936&q=80");
+    background-size: cover;
+    background-color: black;
+    z-index: -2;
+}
+
+#quoteDisplay {
+    color: white;
+    font-size: 2.9em;
+    opacity: 0.8;
+}
+
+hr {
+    width: 50%;
+    color: grey;
+    opacity: 0.5;
+    border-bottom: solid grey;
+}
+
+.container {
+    height: 20em;
+    text-align: center;
+}
+
+h1, p {
+    max-width: 225em;
+    color: white;
+    font-faimly: Georgina, "Times New Roman", Times, serif;
+    letter-spacing: 0.1em;
+    margin: 40px auto;
+    line-height: 145%;
+    font-size: 1.5em;
+    font-variant: small-caps;
+    z-index: -1;
+}
+
+#btn {
+    text-decoration: none;
+    opacity: 0.6;
+    background-color: black;
+    color: white;
+    border: thin solid white;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#btn:hover {
+    background-color:white;
+    color: black;
+    border: thin solid black;
+    opacity: 0.8;
+}
